@@ -44,7 +44,7 @@ DEFAULT_PACKAGES.router:=\
 	dnsmasq-full firewall iptables ppp ppp-mod-pppoe \
 	block-mount coremark kmod-nf-nathelper kmod-nf-nathelper-extra kmod-ipt-raw kmod-tun \
 	iptables-mod-tproxy iptables-mod-extra ipset ip-full default-settings luci luci-newapi \
-	luci-app-ddns luci-app-upnp
+	luci-app-upnp
 
 ifneq ($(DUMP),)
   all: dumpinfo
